@@ -16,6 +16,14 @@ body {
   padding: 1% 0;
   overflow-y: scroll;
   transition: all 0.2s ease-in-out;
+  -ms-overflow-style: none;
+  /* for Internet Explorer, Edge */
+  scrollbar-width: none;
+  /* for Firefox */
+}
+.sidebar-menu::-webkit-scrollbar {
+  display: none;
+  /* for Chrome, Safari, and Opera */
 }
 .sidebar-menu:hover {
   overflow-y: scroll;
@@ -189,7 +197,7 @@ body {
 }
 #main .main__inner {
   width: 100%;
-  height: calc(100vh - 120px);
+  height: calc(100vh - 7.5%);
   overflow-y: scroll;
   background-color: #f5f5f5;
 }

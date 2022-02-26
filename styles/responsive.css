@@ -44,7 +44,7 @@
 }
 @media screen and (min-width: 768px) and (max-width: 990px) {
   .sidebar-menu {
-    width: 35.5%;
+    width: 0;
     background: #3772f2;
     color: #fff;
     height: 100vh;
@@ -56,7 +56,7 @@
     padding: 2.5rem 1.5rem;
   }
   .sidebar-menu__collapsed {
-    width: 0;
+    width: 35.5%;
   }
   .page__title {
     font-size: 1.5rem;
@@ -89,7 +89,7 @@
 }
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .sidebar-menu {
-    width: 35.5%;
+    width: 0;
     background: #3772f2;
     color: #fff;
     height: 100vh;
@@ -101,7 +101,7 @@
     padding: 2.25rem 1.25rem;
   }
   .sidebar-menu__collapsed {
-    width: 0;
+    width: 35.5%;
   }
   .page__title {
     font-size: 1.2rem;
@@ -136,7 +136,7 @@
 }
 @media screen and (min-width: 300px) and (max-width: 575px) {
   .sidebar-menu {
-    width: 50%;
+    width: 0;
     background: #3772f2;
     color: #fff;
     height: 100vh;
@@ -148,7 +148,7 @@
     padding: 2rem 1rem;
   }
   .sidebar-menu__collapsed {
-    width: 0;
+    width: 50%;
   }
   .page__title {
     font-size: 1rem;
@@ -180,4 +180,4 @@
   .form {
     padding: 0px;
   }
-} ;
+}
