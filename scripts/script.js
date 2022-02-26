@@ -15,5 +15,3 @@ const sidebar = document.getElementById("sidebar-menu");
 menu.addEventListener("click", () => {
   sidebar.classList.toggle("sidebar-menu__collapsed");
 });
-
-const
