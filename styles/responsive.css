@@ -1,0 +1,183 @@
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .sidebar-menu {
+    width: 25.5%;
+    background: #3772f2;
+    color: #fff;
+    height: 100vh;
+    padding: 1% 0;
+    overflow-y: scroll;
+    transition: all 0.2s ease-in-out;
+  }
+  #main .main__inner__orders {
+    padding: 2.75rem 1.75rem;
+  }
+  .sidebar-menu__collapsed {
+    width: 0;
+  }
+  .page__title {
+    font-size: 1.8rem;
+  }
+  .order__create {
+    font-size: 1rem;
+  }
+  .import__file {
+    font-size: 1rem;
+  }
+  #right-side-menu #weekday {
+    font-size: 1rem;
+  }
+  #right-side-menu #date {
+    font-size: 0.75rem;
+  }
+  #right-side-menu .right-side-menu__button {
+    width: 35px;
+  }
+  #right-side-menu .user {
+    width: 70%;
+  }
+  #main {
+    padding: 0 17px;
+  }
+  .form {
+    padding: 38px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .sidebar-menu {
+    width: 35.5%;
+    background: #3772f2;
+    color: #fff;
+    height: 100vh;
+    padding: 1% 0;
+    overflow-y: scroll;
+    transition: all 0.2s ease-in-out;
+  }
+  #main .main__inner__orders {
+    padding: 2.5rem 1.5rem;
+  }
+  .sidebar-menu__collapsed {
+    width: 0;
+  }
+  .page__title {
+    font-size: 1.5rem;
+  }
+  .order__create {
+    font-size: 0.85rem;
+  }
+  .import__file {
+    font-size: 0.85rem;
+  }
+  #right-side-menu #weekday {
+    font-size: 0.9rem;
+  }
+  #right-side-menu #date {
+    font-size: 0.75rem;
+  }
+  #main .main__header__button {
+    width: 24px;
+    margin: 0 14px;
+  }
+  #right-side-menu .right-side-menu__button {
+    width: 35px;
+  }
+  #main {
+    padding: 0 14px;
+  }
+  .form {
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .sidebar-menu {
+    width: 35.5%;
+    background: #3772f2;
+    color: #fff;
+    height: 100vh;
+    padding: 1% 0;
+    overflow-y: scroll;
+    transition: all 0.2s ease-in-out;
+  }
+  #main .main__inner__orders {
+    padding: 2.25rem 1.25rem;
+  }
+  .sidebar-menu__collapsed {
+    width: 0;
+  }
+  .page__title {
+    font-size: 1.2rem;
+  }
+  .order__create {
+    font-size: 0.75rem;
+  }
+  .import__file {
+    font-size: 0.75rem;
+  }
+  #right-side-menu #weekday {
+    font-size: 0.75rem;
+  }
+  #right-side-menu #date {
+    font-size: 0.65rem;
+  }
+  #main .main__header__button {
+    width: 20px;
+    margin: 0 10px;
+  }
+  #right-side-menu .right-side-menu__button {
+    width: 26px;
+  }
+  #main,
+  .main__inner {
+    padding: 0 8px;
+    width: calc(100vw - 44%);
+  }
+  .form {
+    padding: 0px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 575px) {
+  .sidebar-menu {
+    width: 50%;
+    background: #3772f2;
+    color: #fff;
+    height: 100vh;
+    padding: 1% 0;
+    overflow-y: scroll;
+    transition: all 0.2s ease-in-out;
+  }
+  #main .main__inner__orders {
+    padding: 2rem 1rem;
+  }
+  .sidebar-menu__collapsed {
+    width: 0;
+  }
+  .page__title {
+    font-size: 1rem;
+  }
+  .order__create {
+    font-size: 0.65rem;
+  }
+  .import__file {
+    font-size: 0.65rem;
+    margin: 0 10px;
+  }
+  #right-side-menu #weekday {
+    font-size: 0.65rem;
+  }
+  #right-side-menu #date {
+    font-size: 0.55rem;
+  }
+  #main .main__header__button {
+    width: 20px;
+    margin: 0 10px;
+  }
+  #right-side-menu .right-side-menu__button {
+    width: 20px;
+  }
+  #main {
+    padding: 0 8px;
+    width: calc(100vw - 58%);
+  }
+  .form {
+    padding: 0px;
+  }
+} ;
